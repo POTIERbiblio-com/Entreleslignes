@@ -1,0 +1,121 @@
+/* Mise en page éditable sous KompoZer. Les feuilles du site reprennent
+   les mêmes éléments dans les navigateurs qui gèrent les grilles CSS. */
+html.compat-ancienne body {
+  margin:0; color:#3b2031; background:#fae9ef url("../images/pois.png");
+  font:15px/1.55 Avenir,Arial,sans-serif;
+}
+.compat-ancienne a { color:#78354f; }
+.compat-ancienne img { border:0; }
+.compat-ancienne h1,.compat-ancienne h2,.compat-ancienne h3 { font-family:Georgia,serif; line-height:1.08; }
+.compat-ancienne h1 { font-size:58px; margin:0 0 16px; }
+.compat-ancienne h2 { font-weight:normal; font-size:39px; margin:0 0 14px; }
+.compat-ancienne p { margin:0 0 14px; }
+.compat-ancienne .skip-link { position:absolute; top:-500px; }
+.compat-ancienne .site-header { min-height:74px; overflow:hidden; padding:0 4%; background:#823e5b; color:#fff7ef; }
+.compat-ancienne .site-header:after { content:""; display:block; clear:both; }
+.compat-ancienne .site-header a { color:#fff7ef; }
+.compat-ancienne .brand { float:left; margin:13px 16px 8px 0; font:italic 38px Georgia,serif; white-space:nowrap; text-decoration:none; }
+.compat-ancienne .site-nav { float:right; padding:17px 0 10px; }
+.compat-ancienne .site-nav a { display:-moz-inline-box; display:inline-block; margin:3px 7px; font-size:13px; font-weight:bold; }
+.compat-ancienne .site-nav a.active { border-bottom:2px solid #fff7ef; text-decoration:none; }
+.compat-ancienne .site-main { width:90%; max-width:1240px; margin:42px auto 40px; }
+.compat-ancienne .site-footer { padding:15px; text-align:center; border-top:1px solid #dcc2ce; }
+.compat-ancienne .site-footer a { margin:0 8px; }
+.compat-ancienne .crumb { margin-bottom:25px; font:13px "Courier New",monospace; }
+.compat-ancienne .crumb img { display:none; }
+.compat-ancienne .edition-button,.compat-ancienne .banner-actions a {
+  display:-moz-inline-box; display:inline-block; padding:8px 13px;
+  background:#783650; color:#fff7ef; text-decoration:none; font-weight:bold;
+}
+
+.compat-ancienne .cover-affiche { position:relative; height:620px; overflow:hidden; background:#f3dce4; text-align:center; }
+.compat-ancienne .cover-montage { position:absolute; top:0; right:0; bottom:0; left:0; }
+.compat-ancienne .cover-montage img,.compat-ancienne .cover-spark { position:absolute; display:block; }
+.compat-ancienne .cover-room { left:-2%; top:12%; width:29%; -moz-border-radius:44% 44% 0 0; }
+.compat-ancienne .cover-landscape { right:-1%; bottom:-3%; width:33%; }
+.compat-ancienne .cover-garden { right:2.5%; top:7%; width:18%; border:6px solid #fff7ef; }
+.compat-ancienne .cover-books { left:2%; bottom:-4%; width:25%; }
+.compat-ancienne .cover-reader { left:13.5%; bottom:0; width:19%; }
+.compat-ancienne .cover-flower { right:22%; top:13%; width:8%; }
+.compat-ancienne .cover-spark { font:44px Georgia,serif; color:#944966; }
+.compat-ancienne .cover-spark-high { left:27%; top:12%; }
+.compat-ancienne .cover-spark-low { right:28%; bottom:9%; }
+.compat-ancienne .cover-lettering { position:relative; width:68%; margin:0 auto; padding-top:87px; z-index:1; }
+.compat-ancienne .cover-byline { font:12px/1.4 "Courier New",monospace; letter-spacing:.1em; text-transform:uppercase; }
+.compat-ancienne .cover-lettering h1 { font:114px/.85 Georgia,serif; color:#4c253d; margin:15px 0 29px; }
+.compat-ancienne .edition-cover-actions a + a { margin-left:14px; }
+.compat-ancienne .cover-strip { margin:40px 0; }
+.compat-ancienne .cover-strip ul,.compat-ancienne .ticket-index,.compat-ancienne .rayons-dans-images { list-style:none; padding:0; margin:0; }
+.compat-ancienne .cover-strip li,.compat-ancienne .index-ticket,.compat-ancienne .rayons-dans-images li,.compat-ancienne .featured-item {
+  display:-moz-inline-box; display:inline-block; vertical-align:top;
+}
+.compat-ancienne .cover-strip li { width:24%; margin:0 .5% 14px 0; }
+.compat-ancienne .cover-strip img { display:block; width:100%; height:177px; }
+.compat-ancienne .cover-strip a { color:#50253f; font:700 25px Georgia,serif; text-decoration:none; }
+.compat-ancienne .featured-library { margin:30px 0; }
+.compat-ancienne .featured-item { width:29%; margin:0 3% 16px 0; }
+.compat-ancienne .featured-item img { height:140px; max-width:100%; }
+.compat-ancienne .featured-item h3 { margin:3px 0; }
+
+.compat-ancienne .catalogue-drawer { padding:27px 28px; background:#f2e8f7; }
+.compat-ancienne .drawer-label { position:relative; padding:12px 0 15px; }
+.compat-ancienne .drawer-spines { display:block; width:210px; margin:0 0 20px; }
+.compat-ancienne .index-ticket { position:relative; width:29%; margin:0 1.4% 19px 0; padding:1%; background:#f8f1fb; border:1px solid #bd8aa3; }
+.compat-ancienne .genre-plate { display:block; position:relative; text-decoration:none; color:#40273a; border:3px solid #b77696; -moz-border-radius:30px; overflow:hidden; }
+.compat-ancienne .genre-plate img { display:block; width:100%; height:196px; -moz-border-radius:47% 47% 0 0; }
+.compat-ancienne .plate-label { display:block; position:relative; margin:-37px 7px 0; min-height:37px; }
+.compat-ancienne .plate-label strong { background:#f8f1fb; padding:2px 5px; font:700 21px Georgia,serif; }
+.compat-ancienne .plate-caption { display:block; padding:7px 8px; font-size:14px; }
+.compat-ancienne .plate-no,.compat-ancienne .plate-arrow { display:none; }
+.compat-ancienne .drawer-foot { font:italic 24px Georgia,serif; }
+.compat-ancienne .drawer-foot img { width:93px; vertical-align:middle; margin-left:12px; }
+.compat-ancienne .artist-colophon { margin-top:28px; }
+.compat-ancienne .artist-colophon img { width:115px; vertical-align:middle; }
+.compat-ancienne .artist-colophon-links { margin:9px 0; }
+.compat-ancienne .artist-colophon a { margin-right:15px; }
+
+.compat-ancienne .collection-titre { position:relative; min-height:148px; padding:52px 25px 33px; margin:0 0 22px; }
+.compat-ancienne .collection-titre h1 { font:700 70px/.94 "Arial Narrow",Arial,sans-serif; letter-spacing:-3px; margin:0 0 12px; }
+.compat-ancienne .collection-titre p { font:italic 30px/1.08 Georgia,serif; }
+.compat-ancienne .collection-titre img { position:absolute; top:43px; right:5%; width:110px; height:auto; }
+.compat-ancienne .rayons-dans-images li { width:31%; margin:0 1.5% 23px 0; }
+.compat-ancienne .rayons-dans-images li:nth-child(3n+2) { margin-top:22px; }
+.compat-ancienne .rayon-image { position:relative; display:block; text-align:center; text-decoration:none; }
+.rayon-fenetre { display:contents; }
+.compat-ancienne .rayon-fenetre {
+  display:block; position:relative; width:88%; margin:auto;
+}
+.compat-ancienne .rayon-image-photo { display:block; width:100%; height:auto; }
+.compat-ancienne .rayon-image-stamp { position:absolute; width:23%; right:1%; top:5%; }
+.compat-ancienne .rayon-image strong {
+  position:relative; display:-moz-inline-box; display:inline-block;
+  margin-top:-10px; padding:4px 8px; background:#fff7ef; font:normal 28px/1 Georgia,serif;
+}
+
+.compat-ancienne .tutoriel-affiche { position:relative; min-height:300px; overflow:hidden; background:#e4cbe7; }
+.compat-ancienne .tutoriel-signaux,.compat-ancienne .tutoriel-portrait { position:absolute; display:block; }
+.compat-ancienne .tutoriel-signaux { left:4%; top:8%; width:18%; }
+.compat-ancienne .tutoriel-portrait { right:2%; top:4%; width:25%; }
+.compat-ancienne .tutoriel-titre { position:relative; width:47%; margin:auto; padding:48px 0 30px; text-align:center; }
+.compat-ancienne .tutoriel-titre h1 { font:italic 74px/.94 Georgia,serif; }
+.compat-ancienne .artist-cinema { max-width:770px; margin:35px auto; text-align:center; }
+.compat-ancienne .tele-cadre { position:relative; height:0; padding-top:65.37%; overflow:hidden; -moz-border-radius:2%; background:#a55780; }
+.compat-ancienne .tele-boitier { position:absolute; top:-95.684%; left:-5.837%; display:block; width:112.062%; }
+.compat-ancienne .tele-ecran { position:absolute; left:6.25%; top:8.48%; width:66.4%; height:83.4%; overflow:hidden; -moz-border-radius:12%; }
+.compat-ancienne .tele-ecran img { margin-top:-16%; }
+.compat-ancienne .artist-programme { margin:19px 0 0; }
+.compat-ancienne .cinema-step-links a { margin:0 6px; }
+.compat-ancienne .etapes-tutoriel { margin:12px auto; max-width:560px; text-align:left; }
+.compat-ancienne .titre-etapes { font-weight:bold; }
+.compat-ancienne .gallica-programme,.compat-ancienne .tutoriel-carnet { max-width:980px; margin:30px auto; padding:17px; }
+.compat-ancienne .gallica-programme:after,.compat-ancienne .tutoriel-carnet:after { content:""; display:block; clear:both; }
+.compat-ancienne .gallica-programme { background:#efa8c6 url("../images/carnet-video/papier-rose.png"); }
+.compat-ancienne .gallica-image,.compat-ancienne .tutoriel-carnet > img { position:relative; float:left; width:48%; margin:0 4% 0 0; }
+.compat-ancienne .gallica-image img { display:block; width:100%; }
+.compat-ancienne .gallica-image span { position:absolute; top:42%; left:45%; padding:4px 10px; color:white; background:#783650; }
+.compat-ancienne .gallica-texte { padding-top:20px; }
+.compat-ancienne .gallica-lien { display:block; margin:9px 0; }
+.compat-ancienne .tutoriel-carnet { background:#f1e7f6; }
+.compat-ancienne .tutoriel-carnet > img { width:40%; }
+.compat-ancienne .tutoriel-carnet ul { padding-left:20px; overflow:hidden; }
+.affiche-video-kompozer img { display:block; width:100%; height:auto; }

@@ -1,0 +1,196 @@
+/* Géométrie des pages du site dans le moteur de KompoZer.
+   Les cadres conservent les proportions des illustrations. */
+.image-cadre { display:contents; }
+
+.parite-kompozer .site-header {
+  padding:0 4.75%; height:auto; min-height:80px;
+  background:#823e5b;
+}
+.parite-kompozer .site-header .brand {
+  display:block; float:none; margin:0; padding:12px 0 4px; font:italic 33px/1 Georgia,serif;
+}
+.parite-kompozer .site-header .site-nav {
+  display:block; float:none; padding:3px 0 8px; background:#823e5b;
+}
+.parite-kompozer .site-nav a {
+  color:#fff7ef; text-decoration:none; margin:3px 6px; padding:4px 0 5px;
+}
+.parite-kompozer .site-nav a.active { border-bottom:2px solid #fff7ef; }
+.parite-kompozer .site-main { width:88%; max-width:1184px; margin:42px auto 36px; }
+.parite-kompozer .crumb { margin:8px 0 32px; }
+.parite-kompozer .artist-colophon { min-height:82px; padding:14px 0; border-top:1px solid #dcc2ce; }
+.parite-kompozer .artist-colophon > img { float:left; width:95px; height:80px; margin:0 16px 0 0; }
+.parite-kompozer .artist-colophon-links { margin:14px 0; }
+.parite-kompozer .site-footer { clear:both; }
+
+.parite-kompozer .cover-affiche {
+  height:auto; padding:0; min-height:435px;
+  background:#f1d8e3 url("../images/recadrages/fond-accueil.png") center center no-repeat;
+}
+.parite-kompozer .cover-montage img { height:auto; max-height:none; max-width:none; -moz-border-radius:0; }
+.parite-kompozer .cover-room { left:-6.2%; top:4.5%; width:37.6%; }
+.parite-kompozer .cover-landscape { right:-5.2%; bottom:-9.8%; width:40.6%; }
+.parite-kompozer .cover-garden { right:.8%; top:4%; width:21.8%; border:0; }
+.parite-kompozer .cover-books { left:.5%; bottom:-8.1%; width:30%; }
+.parite-kompozer .cover-reader { left:13.5%; bottom:0; width:19%; }
+.parite-kompozer .cover-flower { right:20.8%; top:11%; width:10.1%; }
+.parite-kompozer .cover-lettering {
+  position:relative; width:62%; margin:0 auto; padding:60px 0 55px;
+}
+.parite-kompozer .cover-lettering h1 {
+  font:normal 84px/.84 Georgia,serif; letter-spacing:-.075em; margin:15px 0 26px;
+}
+.parite-kompozer .cover-lettering h1 i { white-space:nowrap; font-weight:normal; }
+.parite-kompozer .cover-byline { margin:0; letter-spacing:.12em; }
+.parite-kompozer .edition-cover-actions { white-space:normal; }
+.parite-kompozer .edition-text-link { text-decoration:none; border-bottom:1px solid #783650; padding:7px 8px; background:#f8e5e7; }
+.parite-kompozer .cover-strip { margin:50px 0; }
+.parite-kompozer .cover-strip li { width:22%; margin:0 .42% 0 0; }
+.parite-kompozer .cover-strip li + li { width:26%; }
+.parite-kompozer .cover-strip li + li + li { width:19.5%; }
+.parite-kompozer .cover-strip li + li + li + li { width:25.4%; margin-right:0; }
+.parite-kompozer .cover-strip a { display:block; font:bold 31px/1.1 "Arial Narrow",Arial,sans-serif; }
+.parite-kompozer .cover-strip .image-cadre { display:block; }
+.parite-kompozer .cover-strip img { height:auto; width:100%; }
+.parite-kompozer .cover-strip a > span + span { display:block; padding:9px 4px; }
+.parite-kompozer .featured-library { width:92%; max-width:1090px; margin:0 0 48px; padding:24px 0 0; }
+.parite-kompozer .shelf-heading { margin:0 0 20px; padding:0 0 15px; border-bottom:1px solid #b5839b; }
+.parite-kompozer .shelf-heading h2 { margin:0; }
+.parite-kompozer .featured-grid { border:1px solid #ceadbb; padding:17px 1.15% 26px; }
+.parite-kompozer .featured-item {
+  font:15px/1.4 Avenir,Arial,sans-serif; width:13.1%; margin:0 1.75% 0 0;
+  padding:1%; background:#f8f1fb; border-bottom:1px solid #b9839e;
+}
+.parite-kompozer .featured-item + .featured-item + .featured-item + .featured-item + .featured-item + .featured-item { margin-right:0; }
+.parite-kompozer .featured-item .image-cadre { display:block; padding:9px 8px 0; background:#e5e6f6; }
+.parite-kompozer .featured-item img { display:block; width:100%; height:auto; }
+.parite-kompozer .featured-item small { display:block; margin:10px 0 4px; font:10px/1.35 "Courier New",monospace; text-transform:uppercase; }
+.parite-kompozer .featured-item h3 { font:normal 23px/1.05 Georgia,serif; margin:0 0 8px; }
+.parite-kompozer .featured-item h3 a { text-decoration:none; color:#40273a; }
+.parite-kompozer .featured-item p { margin:0; font-size:12px; }
+
+.parite-kompozer .catalogue-drawer { width:87%; max-width:1034px; margin:0 auto; padding:28px 2.35%; position:relative; }
+.parite-kompozer .drawer-label { padding:40px 3.9%; min-height:94px; margin:0 0 20px; }
+.parite-kompozer .drawer-label > div { display:-moz-inline-box; display:inline-block; vertical-align:middle; width:78%; }
+.parite-kompozer .drawer-label > .drawer-search { width:21%; text-align:right; }
+.parite-kompozer .drawer-label h1,.parite-kompozer .collection-titre h1 {
+  font:bold 61px/.99 "Arial Narrow",Arial,sans-serif; letter-spacing:-.055em; color:#371d2f; margin:0;
+}
+.parite-kompozer .drawer-spines { position:absolute; width:50px; left:-29px; top:264px; margin:0; }
+.parite-kompozer .ticket-index { position:relative; }
+.parite-kompozer .index-ticket {
+  width:36%; margin:0 1% 15px 0; padding:8px .8% 17px;
+  background:#f8f1fb; border:1px solid #bd8aa3; -moz-border-radius:4px 9px 2px 3px;
+}
+.parite-kompozer .ticket-2,.parite-kompozer .ticket-4 { width:21%; }
+.parite-kompozer .ticket-3,.parite-kompozer .ticket-6 { width:28%; margin-right:0; }
+.parite-kompozer .index-ticket:before {
+  content:""; position:absolute; left:32%; top:-5px; width:36%; height:11px; z-index:3;
+  background:#d8c1e2 url("../images/recadrages/ruban.png") repeat-x;
+}
+.parite-kompozer .genre-plate {
+  position:relative; overflow:hidden; display:block;
+  border:3px solid #b77696; -moz-border-radius:18px;
+}
+.parite-kompozer .genre-plate .image-cadre {
+  display:block; position:relative; height:auto; padding:0;
+}
+.parite-kompozer .genre-plate img {
+  display:block; height:auto; width:100%; -moz-border-radius:0;
+}
+.parite-kompozer .plate-label {
+  position:absolute; bottom:26px; left:5px; right:5px; margin:0; min-height:0; z-index:2;
+}
+.parite-kompozer .plate-label strong {
+  display:-moz-inline-box; display:inline-block; max-width:94%; background:#f8f1fb;
+  padding:3px 6px; font:bold 19px/1.05 Arial,sans-serif; -moz-border-radius:8px;
+}
+.parite-kompozer .plate-caption { position:relative; font:bold 12px/1.2 Arial,sans-serif; min-height:14px; padding:4px 5px; }
+
+.parite-kompozer .collection-titre {
+  min-height:155px; padding:40px 3.38%; margin:0 0 27px; position:relative;
+}
+.parite-kompozer .collection-titre > div { width:83%; padding:10px 0 0; }
+.parite-kompozer .collection-titre p { margin:10px 0 0; font:italic 31px/1.08 Georgia,serif; }
+.parite-kompozer .collection-titre img { width:14%; max-width:175px; top:29px; right:3.38%; }
+.parite-kompozer .rayons-dans-images li { width:30.5%; margin:0 2% 32px 0; }
+.parite-kompozer .rayons-dans-images li:nth-child(3n+2) { margin-top:23px; }
+.parite-kompozer .rayons-dans-images li:nth-child(3n) { margin-right:0; }
+.parite-kompozer .rayon-image { padding:0 0 17px; }
+.parite-kompozer .rayon-fenetre { width:100%; }
+.parite-kompozer .rayon-image-stamp { width:19.8%; top:7%; right:1%; }
+.parite-kompozer .rayon-image strong {
+  position:relative; display:-moz-inline-box; display:inline-block;
+  margin-top:-12px; padding:5px 10px;
+  color:#6c3c55; background:#f5ebfa; font:normal 24px/1.04 Georgia,serif;
+}
+
+@media screen and (max-width:1100px) {
+  .parite-kompozer .cover-lettering h1 { font-size:84px; }
+  .parite-kompozer .drawer-label h1,.parite-kompozer .collection-titre h1 { font-size:65px; }
+  .parite-kompozer .featured-item h3 { font-size:20px; }
+}
+@media screen and (max-width:850px) {
+  .parite-kompozer .site-header .brand,.parite-kompozer .site-header .site-nav { float:none; }
+  .parite-kompozer .site-header .brand { display:block; margin:12px 0 0; }
+  .parite-kompozer .site-header .site-nav { padding:4px 0 8px; }
+  .parite-kompozer .cover-lettering { padding-top:66px; }
+  .parite-kompozer .cover-lettering h1 { font-size:6em; margin-bottom:18px; }
+  .parite-kompozer .cover-strip a { font-size:21px; }
+  .parite-kompozer .drawer-label { padding:23px 3%; min-height:0; }
+  .parite-kompozer .drawer-label h1,.parite-kompozer .collection-titre h1 { font-size:51px; }
+  .parite-kompozer .collection-titre { min-height:98px; padding-top:22px; padding-bottom:24px; }
+  .parite-kompozer .collection-titre p { font-size:23px; }
+  .parite-kompozer .rayon-image strong { font-size:23px; }
+  .parite-kompozer .featured-item { width:29%; margin-bottom:14px; }
+}
+@media screen and (max-width:560px) {
+  .parite-kompozer .cover-affiche { min-height:340px; }
+  .parite-kompozer .cover-lettering { width:80%; }
+  .parite-kompozer .cover-lettering h1 { font-size:4.1em; }
+  .parite-kompozer .cover-strip li:nth-child(n) { width:48.5%; margin:0 1% 10px 0; }
+  .parite-kompozer .index-ticket:nth-child(n) { width:46%; margin:0 1% 14px 0; }
+  .parite-kompozer .drawer-label > div,.parite-kompozer .drawer-label > .drawer-search { width:100%; text-align:left; }
+  .parite-kompozer .drawer-label h1,.parite-kompozer .collection-titre h1 { font-size:42px; }
+  .parite-kompozer .rayons-dans-images li:nth-child(n) { width:47%; margin:0 2% 15px 0; }
+  .parite-kompozer .rayon-image strong { font-size:18px; }
+}
+
+/* Les versions récentes de Gecko adaptent aussi la couverture aux grands écrans. */
+@media screen and (min-width:1101px) {
+  .parite-kompozer .cover-affiche { min-height:665px; }
+  .parite-kompozer .cover-lettering { padding-top:126px; }
+  .parite-kompozer .cover-lettering h1 { font-size:147px; }
+  .parite-kompozer .drawer-label h1,.parite-kompozer .collection-titre h1 { font-size:83px; }
+  .parite-kompozer .rayon-image strong { font-size:32px; }
+}
+
+.parite-kompozer .cover-strip li,
+.parite-kompozer .featured-item,
+.parite-kompozer .index-ticket,
+.parite-kompozer .rayons-dans-images li {
+  display:-moz-inline-box; display:inline-block; vertical-align:top;
+}
+.parite-kompozer .catalogue-drawer { background:#f2e8f7; }
+.parite-kompozer .cover-strip li { min-height:135px; }
+
+.rangee-kompozer { display:contents; }
+.parite-kompozer .rangee-kompozer { display:block; overflow:hidden; padding:5px 0 12px; }
+.parite-kompozer .rangee-kompozer > div {
+  display:block; float:left; width:30%; margin:0 2% 12px 0;
+}
+.parite-kompozer .rangee-kompozer > .index-ticket { width:36%; margin:0 1.1% 0 0; }
+.parite-kompozer .rangee-kompozer > .ticket-2,
+.parite-kompozer .rangee-kompozer > .ticket-4 { width:21%; }
+.parite-kompozer .rangee-kompozer > .ticket-3,
+.parite-kompozer .rangee-kompozer > .ticket-6 { width:28%; margin-right:0; }
+.parite-kompozer .rayons-dans-images .rangee-kompozer > div + div { margin-top:21px; }
+.parite-kompozer .rayons-dans-images .rangee-kompozer > div + div + div { margin-top:0; }
+.parite-kompozer .rayons-dans-images .rangee-kompozer > div { min-height:175px; }
+
+/* Hauteur calculée en flux normal, y compris quand les légendes passent sur deux lignes. */
+.parite-kompozer .rangee-kompozer { overflow:visible; padding-bottom:9px; }
+.parite-kompozer .rangee-kompozer > div { float:none; display:-moz-inline-box; display:inline-block; vertical-align:top; }
+.parite-kompozer .plate-label { position:relative; display:block; bottom:auto; left:auto; right:auto; margin:-28px 5px 0; min-height:28px; }
+.parite-kompozer .plate-label strong { position:relative; display:inline; background:#f8f1fb; }
+.parite-kompozer .plate-caption { position:relative; background:#f8f1fb; }
